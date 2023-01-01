@@ -3,7 +3,7 @@
   "required_api_version": "2",
   "api_version": "1",
   "name": "System Management Direct",
-  "description": "Direct access to Lock, Suspend, Shut Down and Restart commands",
+  "description": "Direct access to Lock, Suspend, Shut Down, Restart and Restart to UEFI Firmware commands",
   "developer_name": "episode6, Inc.",
   "icon": "icon.svg",
   "preferences": [
@@ -34,6 +34,13 @@
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
       "description": "Shut down system"
+    }
+    {
+      "id": "reboot_uefi",
+      "type": "keyword",
+      "name": "Reboot to UEFI /Restart to UEFI",
+      "default_value": "Reboot to UEFI /Restart to UEFI",
+      "description": "Restart the system and enter Mainboardsettings"
     }
   ]
 }
