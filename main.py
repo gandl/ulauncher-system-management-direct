@@ -34,5 +34,5 @@ class KeywordQueryEventListener(EventListener):
     if id == 'restart':
       subprocess.Popen(['systemctl', 'reboot', '-i'])
     if id == 'reboot_uefi':
-      subprocess.Popen(['systemctl', 'reboot', '-i', '--firmware-setup'])    
+      subprocess.Popen(['systemctl', 'reboot', '-i --firmware-setup'])    
 SystemManagementDirect().run()
