@@ -38,8 +38,8 @@
     {
       "id": "rebootuefi",
       "type": "keyword",
-      "name": "Reboot to UEFI /Restart to UEFI",
-      "default_value": "Reboot to UEFI /Restart to UEFI",
+      "name": "Reboot to UEFI / Restart to UEFI",
+      "default_value": "Reboot to UEFI / Restart to UEFI",
       "description": "Restart the system and enter Mainboardsettings"
     }
   ]
