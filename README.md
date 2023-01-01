@@ -23,6 +23,9 @@ Instead of spaces it's using an untypable blank character with the same width. K
 
 Users can override keywords in Ulauncher's preferences (hence the "default" in `default_value`). If you do this, this extension will not work as intended, but you may want to delete keywords completely if you don't want a specific panel to appear in search.
 
+## Update 01.01.2023
+- Entry added to boot directly to mainboard firmware
+
 # Credits
 - Originally forked from: https://github.com/friday/ulauncher-gnome-settings
   - Available under [MIT License](https://github.com/friday/ulauncher-gnome-settings/blob/v5/LICENSE)

@@ -2,7 +2,7 @@
   "manifest_version": "2",
   "required_api_version": "2",
   "api_version": "1",
-  "name": "System Management Direct",
+  "name": "System Management Direct incl. UEFI",
   "description": "Direct access to Lock, Suspend, Shut Down, Restart and Restart to UEFI Firmware commands",
   "developer_name": "episode6, Inc.",
   "icon": "icon.svg",
@@ -34,7 +34,7 @@
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
       "description": "Shut down system"
-    }
+    },
     {
       "id": "reboot_uefi",
       "type": "keyword",
